@@ -34,6 +34,7 @@ pipeline {
             sh '''
             cd /build/
             ls -la
+            npm test
             '''
 
          }
